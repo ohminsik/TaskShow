@@ -111,8 +111,23 @@
 			.content_wrap .my_project > ul > li.newproject:hover{background: #27b6ba}
 			.content_wrap .my_project > ul > li.newproject:hover p{color:#fff;}
 			.content_wrap .my_project > ul > li.newproject:hover p i{color:#fff;}
-	
-	
+			
+			
+			
+			.newproject_bg{display:none;position: fixed; top:0; left:0; width: 100%; height: 100%; background: rgba(0,0,0,0.5); z-index:9999}
+			.newproject_wrap{display:none;position: absolute; top:50%; left:50%; width:600px; height: 600px; transform:translateX(-50%) translateY(-50%); background: #fff; z-index:9999; }
+			.newproject_wrap .xi-close{position: absolute; top:20px; right:20px; font-size:16px; color:#333; cursor:pointer;}
+			.newproject_wrap .newproject{width:500px; margin:50px auto;}
+			.newproject_wrap .newproject p.title{font-size:18px; font-weight: bold; color:#333;  text-align: center; margin-bottom:20px;}
+			.newproject_wrap .newproject ul{}
+			.newproject_wrap .newproject ul li{margin-bottom:20px;}
+			.newproject_wrap .newproject ul li p{font-size:12px; margin-bottom:5px; color:#333; font-weight: bold;}
+			.newproject_wrap .newproject ul li input[type="text"]{height:30px; width:100%; border:1px solid #e1e1e1; padding:0 10px; box-sizing:border-box;}
+			.newproject_wrap .newproject ul li input[type="text"]:active,.newproject_wrap .newproject ul li input[type="text"]:focus{border:1px solid #27b6ba;}
+			.newproject_wrap .newproject ul li input[type="radio"]{vertical-align: top; margin:3px 5px;}
+			.newproject_wrap .newproject ul li a{border:1px solid #ccc; background: #e1e1e1; width:20px; height: 20px; text-align: center; line-height: 20px; font-size:14px; display: inline-block; cursor:pointer; margin-right:5px;}
+			.newproject_wrap .newproject ul li span{border:1px solid #e1e1e1; border-radius: 20px; background: #f5f6f7; display: inline-block; margin-right:5px; padding:2px 5px;}
+			.newproject_wrap .newproject button{width:200px; height:50px; background:#27b6ba; margin:20px auto; color:#fff; border:1px solid #fff; font-size:14px; font-weight: bold; display: block;}
 	
 	
 	

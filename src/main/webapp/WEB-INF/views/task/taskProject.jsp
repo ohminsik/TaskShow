@@ -228,5 +228,47 @@
 		</div>
 	</div>
 	
+	<div class="newproject_bg"></div>
+	<div class="newproject_wrap">
+		<i class="xi-close"></i>
+		<div class="newproject">
+			<p class="title">새 프로젝트</p>
+			<ul>
+				<li>
+					<p>제목</p>
+					<input type="text" name="" id="">
+				</li>
+				<li>
+					<p>설명</p>
+					<input type="text" name="" id="">
+				</li>
+				<li>
+					<p>공개여부설정</p>
+					<input type="radio" name="check" id="be"><label for="be">비공개</label>
+					<input type="radio" name="check" id="gong"><label for="gong">공개</label>				
+				</li>
+				<li>
+					<p>프로젝트멤버</p>
+					<a>+</a>
+					<span>오민식</span>
+				</li>
+			</ul>
+			
+			<button>완료</button>
+		</div>
+	</div>
 </body>
+<script>
+	$(document).ready(function(){
+		$(".newproject").click(function(){
+			$(".newproject_bg").show();
+			$(".newproject_wrap").show();
+		})
+		
+		$(".newproject_wrap > .xi-close").click(function(){
+			$(".newproject_bg").hide();
+			$(".newproject_wrap").hide();
+		})
+	})
+</script>
 </html>

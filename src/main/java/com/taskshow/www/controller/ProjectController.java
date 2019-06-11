@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import com.taskshow.www.service.face.TaskService;
 
 @Controller
-public class TaskController {
+public class ProjectController {
 	@Autowired TaskService taskService;
 	
 	@RequestMapping(value = "/task/taskProject", method = RequestMethod.GET)
